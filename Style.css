@@ -1,0 +1,42 @@
+body {
+    background: #0a0f29;
+    color: silver;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: silver;
+    background: #1e3c72;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 250px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.links a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.links a:hover {
+    background: #254b8b;
+}
